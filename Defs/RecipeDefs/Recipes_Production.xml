@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+  
+  <RecipeDef>
+    <defName>MakeCloth</defName>
+    <label>Make Cloth</label>
+    <description>Combine cotton thread to make cloth.</description>
+    <jobString>Weaving cotton thread.</jobString>
+    <workAmount>1000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <recipeUsers>
+      <li>TableTailor</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>CottonBoll</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <products>
+      <Cloth>6</Cloth>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>CottonBoll</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MakeDevilstrand</defName>
+    <label>Make Devilstrand cloth</label>
+    <description>Combine Devilstrand fibres to make Devilstrand Cloth.</description>
+    <jobString>Weaving Devilstrand fibres.</jobString>
+    <workAmount>2200</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <recipeUsers>
+      <li>TableTailor</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>5</minLevel>
+      </li>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandThread</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <DevilstrandCloth>2</DevilstrandCloth>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DevilstrandThread</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MakeSynthread</defName>
+    <label>Make Synthread</label>
+    <description>Combine Cloth and Devilstrand to create Synthread.</description>
+    <jobString>Weaving Synthread.</jobString>
+    <workAmount>4000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <recipeUsers>
+      <li>TableTailor</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>10</minLevel>
+      </li>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <Synthread>5</Synthread>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>DevilstrandCloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>MakeHyperweave</defName>
+    <label>Make Hyperweave</label>
+    <description>Use a secret recipe to create Hyperweave.</description>
+    <jobString>Weaving Hyperweave.</jobString>
+    <workAmount>10000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <recipeUsers>
+      <li>TableTailor</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Crafting</skill>
+        <minLevel>15</minLevel>
+      </li>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DevilstrandCloth</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <Hyperweave>5</Hyperweave>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Synthread</li>
+        <li>DevilstrandCloth</li>
+        <li>Gold</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+</RecipeDefs>
