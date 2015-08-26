@@ -58,10 +58,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>CottonBoll</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
-      <harvestYieldRange>
-        <min>5</min>
-        <max>10</max>
-      </harvestYieldRange>
+      <harvestYield>8</harvestYield>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>
@@ -100,10 +97,7 @@
       <harvestTag>Standard</harvestTag>
       <harvestedThingDef>DevilstrandThread</harvestedThingDef>
       <harvestDestroys>true</harvestDestroys>
-      <harvestYieldRange>
-        <min>1</min>
-        <max>3</max>
-      </harvestYieldRange>
+      <harvestYield>6</harvestYield>
       <sowTags>
         <li>Ground</li>
         <li>Hydroponic</li>

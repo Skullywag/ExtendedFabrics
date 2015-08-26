@@ -156,14 +156,6 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Gold</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>Plasteel</li>
           </thingDefs>
         </filter>
@@ -177,7 +169,6 @@
       <thingDefs>
         <li>Synthread</li>
         <li>DevilstrandCloth</li>
-        <li>Gold</li>
         <li>Plasteel</li>
       </thingDefs>
     </fixedIngredientFilter>
