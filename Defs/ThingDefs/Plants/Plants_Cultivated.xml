@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Plants>
 
-
   <ThingDef Name="PlantBase" Abstract="True">
     <category>Plant</category>
     <thingClass>Plant</thingClass>
@@ -21,6 +20,7 @@
       <harvestDestroys>true</harvestDestroys>
       <soundHarvesting>Harvest_Standard</soundHarvesting>
       <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+      <harvestWork>150</harvestWork>
       <sowWork>150</sowWork>
       <fertilityMin>0.5</fertilityMin>
       <fertilityFactorGrowthRate>1.0</fertilityFactorGrowthRate>
@@ -49,8 +49,9 @@
     <selectable>true</selectable>
     <pathCost>10</pathCost>
     <ingestible>
-      <preferability>Plant</preferability>
-      <nutrition>0.40</nutrition>
+      <foodType>Plant</foodType>
+      <preferability>NeverForNutrition</preferability>
+      <nutrition>0.20</nutrition>
     </ingestible>
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
@@ -64,7 +65,7 @@
         <li>Hydroponic</li>
       </sowTags>
       <topWindExposure>0.1</topWindExposure>
-      <growDays>4.16</growDays>
+      <growDays>2.705</growDays>
       <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate>
       <visualSizeRange>
         <min>0.3</min>
@@ -88,7 +89,8 @@
     <selectable>true</selectable>
     <pathCost>10</pathCost>
     <ingestible>
-      <preferability>Plant</preferability>
+      <foodType>Plant</foodType>
+      <preferability>NeverForNutrition</preferability>
       <nutrition>0.05</nutrition>
     </ingestible>
     <plant>
@@ -102,8 +104,11 @@
         <li>Ground</li>
         <li>Hydroponic</li>
       </sowTags>
+      <sowResearchPrerequisites>
+        <li>Devilstrand</li>
+      </sowResearchPrerequisites>
       <topWindExposure>0.1</topWindExposure>
-      <growDays>45</growDays>
+      <growDays>22.5</growDays>
       <fertilityFactorGrowthRate>0.4</fertilityFactorGrowthRate>
       <visualSizeRange>
         <min>0.3</min>
