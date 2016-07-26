@@ -9,7 +9,7 @@
     <workAmount>1000</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
-    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <recipeUsers>
       <li>ElectricTailoringBench</li>
       <li>HandTailoringBench</li>
@@ -42,7 +42,7 @@
     <workAmount>2200</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
-    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <recipeUsers>
       <li>ElectricTailoringBench</li>
       <li>HandTailoringBench</li>
@@ -60,11 +60,11 @@
             <li>DevilstrandThread</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>6</count>
       </li>
     </ingredients>
     <products>
-      <DevilstrandCloth>2</DevilstrandCloth>
+      <DevilstrandCloth>4</DevilstrandCloth>
     </products>
     <fixedIngredientFilter>
       <thingDefs>
@@ -81,7 +81,7 @@
     <workAmount>4000</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
-    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <recipeUsers>
       <li>ElectricTailoringBench</li>
       <li>HandTailoringBench</li>
@@ -129,7 +129,7 @@
     <workAmount>10000</workAmount>
     <workSkill>Crafting</workSkill>
     <workSpeedStat>TailoringSpeed</workSpeedStat>
-    <soundWorking>Recipe_MakeClothes</soundWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
     <recipeUsers>
       <li>ElectricTailoringBench</li>
       <li>HandTailoringBench</li>
