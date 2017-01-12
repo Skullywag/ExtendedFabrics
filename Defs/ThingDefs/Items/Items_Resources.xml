@@ -24,17 +24,21 @@
     <pathCost>15</pathCost>
   </ThingDef>
 
-  <ThingDef Name="ResourceVerbBase" ParentName="ResourceBase" Abstract="True">
-    <equipmentType>Primary</equipmentType>
-    <techLevel>Neolithic</techLevel>
-    <comps>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
-    </comps>
+  <ThingDef Abstract="True" Name="OrganicProductBase" ParentName="ResourceBase">
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>10</DeteriorationRate>
+      <Mass>0.03</Mass>
+    </statBases>
+    <tickerType>Rare</tickerType>
   </ThingDef>
 
-  <ThingDef ParentName="ResourceBase">
+  <ThingDef ParentName="OrganicProductBase">
     <defName>CottonBoll</defName>
     <label>Cotton boll</label>
     <description>Fine threads able to be combined to form larger pieces of cloth when woven together.</description>
@@ -48,12 +52,12 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <thingCategories>
-      <li>ResourcesRaw</li>
+      <li>PlantMatter</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
   </ThingDef>
 
-  <ThingDef ParentName="ResourceBase">
+  <ThingDef ParentName="OrganicProductBase">
     <defName>DevilstrandThread</defName>
     <label>Devilstrand thread</label>
     <description>Fine fibres from the Devilstrand fungi, used in creating strong fabrics.</description>
@@ -67,7 +71,7 @@
       <Flammability>1.0</Flammability>
     </statBases>
     <thingCategories>
-      <li>ResourcesRaw</li>
+      <li>PlantMatter</li>
     </thingCategories>
     <stackLimit>75</stackLimit>
   </ThingDef>
