@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Plants/ThingDef[defName = "PlantCotton"]/plant/harvestedThingDef</xpath>
 		<value>
 			<harvestedThingDef>CottonBoll</harvestedThingDef>
 		</value>
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationReplace">
 		<xpath>/Plants/ThingDef[defName = "PlantDevilstrand"]/plant/harvestedThingDef</xpath>
 		<value>
 			<harvestedThingDef>DevilstrandThread</harvestedThingDef>
